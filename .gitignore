@@ -104,3 +104,16 @@ node_modules/
 # .tern-port
 
 *.Identifier
+
+# Local Terraform directories
+**/.terraform/*
+.terraform.lock*
+
+# State files
+*.tfstate.*
+
+# Sensitive data
+*.tfvars
+
+# Crash log files
+*.log
