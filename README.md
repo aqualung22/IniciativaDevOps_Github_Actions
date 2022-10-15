@@ -1,4 +1,4 @@
-### Pipeline CI/CD GitHub Actions + Kubernetes + Docker + Docker Hub
+## Pipeline CI/CD GitHub Actions + Kubernetes + Docker + Docker Hub
 
 
 ### Pipeline CI - Continuous Integration
@@ -6,7 +6,7 @@
 - Checkout do novo código, build da imagem Docker e publicação dela no registry Docker Hub .
 
 ### Pipeline CD - Continuous Delivery
-- Execução condicionada ao sucesso da pipeline de CI
+- Execução condicionada ao sucesso da pipeline CI
 - Configurado o contexto para acesso ao cluster Kubernetes
 - Deploy da imagem Docker no cluster Kubernetes
 
