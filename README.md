@@ -1,8 +1,8 @@
-### Aula 03 - Criação de um cluster na cloud Digital Ocean utilizando Terraform e Kubernetes
+### Pipeline CI/CD GitHub Actions + Kubernetes + Docker + Docker Hub
 
 
 ### Pipeline de CI - Continuous Integration
-- Disparada mediante o evento de um push no repositório do Github
+- Disparada mediante o evento de um push no repositório do GitHub
 - Checkout do novo código, build da imagem Docker e publicação dela no registry Docker Hub .
 
 ### Pipeline de CD - Continuous Delivery
