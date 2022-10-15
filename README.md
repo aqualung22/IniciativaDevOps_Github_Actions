@@ -1,11 +1,18 @@
 ### Aula 03 - Criação de um cluster na cloud Digital Ocean utilizando Terraform e Kubernetes
 
-- IaC
-- Terraform
-- Kubernetes
-- Docker
-- Digital Ocean
-- Ubuntu
-- WSL
-- VSCode
+###Pipeline de CI - Continuous Integration:
+- Disparada mediante o evento de um push no repositório do Github
+- Checkout do novo código, build da imagem Docker e publicação dela no registry Dockerhub .
 
+###Pipeline de CD - Continuous Delivery:
+- Execução condicionada ao sucesso da pipeline de CI
+- Configurado o contexto para acesso ao cluster Kubernetes
+- Deploy da imagem Docker no cluster Kubernetes
+
+Em ambas as pipelines, foram definidos runners Linux Ubuntu.
+
+Os dados de acesso ao Dockerhub e contexto Kubernetes foram armazenados em Secrets
+
+Foram utilizadas actions do Marketplace para
+- Login e Push das imagens no Dockerhub 
+- Configurar contexto e efetuar deploy no cluster Kubernetes
